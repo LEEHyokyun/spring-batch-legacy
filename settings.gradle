@@ -13,3 +13,5 @@ plugins {
 
 rootProject.name = 'kill-batch-system'
 include('app')
+
+gradle.startParameter.excludedTaskNames += ['prepareKotlinBuildScriptModel']
